@@ -1,9 +1,0 @@
-test
-delaunay
-tests_delaunay
-*.swp
-build/
-peda-session-delaunay.txt
-*.lua
-.gdb_history
-.vscode

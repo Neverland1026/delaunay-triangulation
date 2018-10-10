@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <IncludePath>D:\SFML-2.5.0\include;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\SFML-2.5.0\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <Link>
+      <AdditionalDependencies>sfml-graphics-s.lib;flac.lib;sfml-graphics-s-d.lib;sfml-system-s.lib;freetype.lib;sfml-system-s-d.lib;ogg.lib;sfml-main.lib;openal32.lib;sfml-main-d.lib;sfml-window.lib;sfml-audio.lib;sfml-window-d.lib;sfml-audio-d.lib;sfml-network.lib;sfml-network-d.lib;sfml-window-s.lib;sfml-audio-s.lib;sfml-window-s-d.lib;sfml-audio-s-d.lib;sfml-network-s.lib;sfml-network-s-d.lib;vorbis.lib;sfml-graphics.lib;vorbisenc.lib;sfml-graphics-d.lib;sfml-system.lib;vorbisfile.lib;sfml-system-d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>

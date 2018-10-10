@@ -1,0 +1,28 @@
+TEMPLATE = app
+CONFIG += console c++11
+CONFIG -= app_bundle
+CONFIG -= qt
+
+SOURCES += main.cpp
+
+HEADERS += \
+    delaunay.h \
+    edge.h \
+    numeric.h \
+    triangle.h \
+    vector2.h
+
+# Config - Windows
+
+INCLUDEPATH += D:\SFML-2.5.0\include\
+
+CONFIG(debug,debug | release ){
+
+LIBS += D:\SFML-2.5.0\lib\sfml-graphics-d.lib\
+        D:\SFML-2.5.0\lib\sfml-window-d.lib\
+        D:\SFML-2.5.0\lib\sfml-audio-d.lib\
+        D:\SFML-2.5.0\lib\sfml-network-d.lib\
+        D:\SFML-2.5.0\lib\sfml-system-d.lib\
+}else{
+
+}
